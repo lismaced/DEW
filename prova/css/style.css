@@ -1,0 +1,95 @@
+/* Fundo com padrão de imagens pequenas */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    background-image: url(https://i.pinimg.com/736x/75/54/9a/75549a542172520534c5749e80135e4b.jpg); 
+    background-repeat: repeat;
+    color: #f0f0f0;
+  }
+  
+  /* Título */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;
+  }
+  
+  /* Centralizar o formulário */
+  form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  }
+  
+  /* Tabela limpa */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #333;
+  }
+  
+  th {
+    background-color: #222;
+    font-size: 1.1em;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 6px;
+  }
+  
+  /* Botões */
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #666;
+  }
+  
+
+  ul {
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }  

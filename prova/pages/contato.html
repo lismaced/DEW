@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário com Tabela</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <h1>Formulário</h1>
+
+  <form action="enviado.html" method="get">
+    <table border="1" cellpadding="10">
+      <tr>
+        <th colspan="2">Dados pessoais</th>
+      </tr>
+      <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="nome"></td>
+      </tr>
+      <tr>
+        <td>Endereço:</td>
+        <td><input type="text" name="endereco"></td>
+      </tr>
+      <tr>
+        <td>Cidade:</td>
+        <td><input type="text" name="cidade"></td>
+      </tr>
+      <tr>
+        <td>Estado:</td>
+        <td>
+          <select name="estado">
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Minas Gerais</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <th colspan="2">Dados profissionais</th>
+      </tr>
+      <tr>
+        <td>Natureza do Cargo:</td>
+        <td>
+          <input type="radio" name="cargo" value="gerencia">Gerência
+          <input type="radio" name="cargo" value="financeiro">Financeiro
+          <input type="radio" name="cargo" value="recepcao">Recepção
+          <input type="radio" name="cargo" value="administrativo">Administrativo
+          <input type="radio" name="cargo" value="juridico">Jurídico
+        </td>
+      </tr>
+      <tr>
+        <td>Área de interesse:</td>
+        <td>
+          <input type="checkbox" name="interesse" value="computacao">Computação
+          <input type="checkbox" name="interesse" value="biologia">Biologia
+          <input type="checkbox" name="interesse" value="meioambiente">Meio Ambiente
+          <input type="checkbox" name="interesse" value="engenharia">Engenharia
+          <input type="checkbox" name="interesse" value="historia">História
+        </td>
+      </tr>
+      <tr>
+        <td>Mini-currículo:</td>
+        <td><textarea name="curriculo" rows="5" cols="40"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar">
+        </td>
+      </tr>
+    </table>
+  </form>
+  <ul><li><a href="../index.html">Página inicial</a></li></ul>
+</body>
+</html>
+
